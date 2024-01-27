@@ -8,6 +8,47 @@ This project is based on ideas from books such as [Atomic Habits](https://www.am
 
 <img src="imgs/secondbrainbook.jpg" alt="drawing" width="200"/>
 
+## What can the app do?
+
+The application has several sections, the food tracker, the exercise tracker, the note taking section, the kanban board and the statistics section which will become more useful as you use the application.
+
+### Food Tracker
+<img src="imgs/captura_food.png" alt="drawing" width="500"/>
+
+This section has a direct link to MyFitnessPal where it is assumed that you track your diet and calorie intake, the data returned by this website is what you have to add to the app.
+
+I did this because the statistics on your calorie intake is paid for on this website. So I started to write down the data myself and make statistics on it.
+
+### Exercise Tracker 
+
+<img src="imgs/exercise_tracker.png" alt="drawing" width="500"/>
+
+This section has a series of inputs: 
+
+- The date of the day you have exercised, it defaults to today but you can change it to any date you want. 
+- The name of the exercise.
+- The sets and reps you have done
+- The time in minutes you have been doing the exercise counting the breaks between sets.
+- The weight in kilograms of the dumbbells.
+- Your feelings about whether the exercise was particularly easy or difficult.
+- The type of exercise, whether it was warm-up, exercise or post-workout.
+
+### Note Taking 
+
+<img src="imgs/note_taking.png" alt="drawing" width="500"/>
+
+The notes that you create are saved in HTML format in **www/HTML Notes/** inside the app directory.
+
+This part implements a library for taking notes that is based on services used by WordPress and some universities like mine (University of Seville). You can use it to generate notes with all the elements that could be used for example in a Word or LibreOffice file and saved in HTML format. 
+
+My plan was to implement a converter from HTML to some other format but there are thousands online.
+
+### Kanban 
+
+<img src="imgs/kanban_board.png" alt="drawing" width="500"/>
+
+This section is implemented with a library that allows you to create drag and drop elements. It is in a very early stage of development but is functional.
+
 ## What is Building A Second Brain?
 
 Building a second brain or in short "BASB", this is a method or note management system that systematically writes down and saves and manages our knowledge, inspiration, and insights through digital note taking software.
